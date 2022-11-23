@@ -1,11 +1,12 @@
 import NewNote from "./components/NewNote"
 import Notes from "./components/Notes"
+import VisibilityFilter from "./reducers/VisibilityFilter"
 
 const App = () => {
-
   return (
     <div>
       <NewNote />
+      <VisibilityFilter />
       <Notes />
     </div>
   )
